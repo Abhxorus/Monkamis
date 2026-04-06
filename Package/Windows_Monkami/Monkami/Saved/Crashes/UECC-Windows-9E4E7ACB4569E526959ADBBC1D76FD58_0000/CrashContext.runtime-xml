@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>3FA7092A4D08337A67396599824260A0</ExecutionGuid>
+<CrashGUID>UECC-Windows-9E4E7ACB4569E526959ADBBC1D76FD58_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>GPUCrash</CrashType>
+<ErrorMessage>GPU Crash dump Triggered</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>19952</ProcessId>
+<SecondsSinceStart>8</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Monkami</GameName>
+<ExecutableName>Monkami</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.4.4-35576357+++UE5+Release-5.4</EngineVersion>
+<EngineCompatibleVersion>5.4.4-35576357+++UE5+Release-5.4</EngineCompatibleVersion>
+<CommandLine> Monkami</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>es-MX</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.4-CL-35576357</BuildVersion>
+<Symbols>**UE5*Release-5.4-CL-35576357-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/Usuario/Documents/Unreal Projects/Monkami/Package/Windows_Monkami/Monkami/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/Usuario/Documents/Unreal Projects/Monkami/Package/Windows_Monkami/</RootDir>
+<MachineId>667D30164B8353BA39F52282ACC60C25</MachineId>
+<LoginId>667d30164b8353ba39f52282acc60c25</LoginId>
+<EpicAccountId>aa08b97579624d45a8ec34d0967781c3</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>14</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>13th Gen Intel(R) Core(TM) i7-13650HX</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.8037]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>16849256448</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>27586674688</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>5030678528</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>2667696128</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1139085312</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1191854080</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3392724992</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3411210240</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+Monkami   0x00007ff65f300000 + 564d7bf         
+Monkami   0x00007ff65f300000 + 56501ae         
+Monkami   0x00007ff65f300000 + 55f0f05         
+Monkami   0x00007ff65f300000 + 5608309         
+Monkami   0x00007ff65f300000 + 560f14c         
+Monkami   0x00007ff65f300000 + 561cd6f         
+Monkami   0x00007ff65f300000 + 173a928         
+Monkami   0x00007ff65f300000 + 172e477         
+KERNEL32  0x00007ffa1ee30000 + 2e8d7           
+</PCallStack>
+<PCallStackHash>E02A2B77D4024ECA321BAE8071DF035134E3DD71</PCallStackHash>
+<GPUBreadcrumbs>
+<FormatVersion>1.0</FormatVersion>
+<Source>RHI</Source>
+<Queue>
+<Name>3D Queue 0</Name>
+<FullHash>A873C5DEB758B5C7F2864904A82DFB729272ED54</FullHash>
+<ActiveHash>90F1B30FCB102553EF788C7B0FEB81A41CF617B1</ActiveHash>
+<Breadcrumbs>{{Frame 1320},A,{{{BufferPoolCopyOps},F},{{TexturePoolCopyOps},F},{{FRDGBuilder::Execute},F},{{SendAllEndOfFrameUpdates},F},{{FRDGBuilder::Execute},F},{{SendAllEndOfFrameUpdates},F},{{FRDGBuilder::Execute},A,{{{ClearGPUMessageBuffer},F},{{UpdateAllPrimitiveSceneInfos},F},{{ClearBuffer(Shadow.Virtual.PhysicalPageMetaData Size=98304bytes)},F},{{ClearBuffer(Shadow.Virtual.PhysicalPageMetaData Size=98304bytes)},F},{{ShaderPrint::UploadParameters},F},{{UpdateDistanceFieldObjectBuffers},F},{{UpdateDistanceFieldAtlas},F},{{UpdateGlobalDistanceField},F},{{Scene},A,{{{Niagara::GPUProfiler_BeginFrame},F},{{AccessModePass[Graphics] (Textures: 0, Buffers: 1)},F},{{FFXSystem::PreRender},F},{{FGPUSortManager::OnPreRender},F},{{BuildRenderingCommandsDeferred(Culling=On)},F},{{AccessModePass[Graphics] (Textures: 7, Buffers: 7)},F},{{ClearDepthStencil (SceneDepthZ)},F},{{PrePass DDM_AllOpaqueNoVelocity (Forced by Nanite)},F},{{FVirtualShadowMapArray::UpdatePhysicalPageAddresses},F},{{ComputeLightGrid},F},{{LightFunctionAtlas Generation},F},{{BeginOcclusionTests},F},{{BuildHZB(ViewId=0)},F},{{SubmitCommands},F},{{FenceOcclusionTests},F},{{SkyAtmosphereLUTs},F},{{CaptureConvolveSkyEnvMap},F},{{LumenSceneUpdate: 17 card captures 0.004M texels},F},{{ClearBuffer(Lumen.FeedbackAllocator Size=4bytes)},F},{{ClearBuffer(Lumen.Feedback Size=31208bytes)},F},{{LumenSceneLighting PROPAGATE GLOBAL CHANGE!},F},{{GBufferClear},F},{{BasePass},F},{{CopyStencilToLightingChannels},F},{{DiffuseIndirectAndAO},F},{{FVirtualShadowMapArray::BuildPageAllocation},F},{{ShadowDepths},A,{{{BuildRenderingCommandsDeferred(Culling=On)},F},{{RenderVirtualShadowMaps(Non-Nanite)},A,{{{Batched},A,{{{CullingPasses},A,{{{ClearBuffer(Shadow.Virtual.VisibleInstanceWriteOffset Size=4bytes)},F},{{ClearIndirectArgInstanceCount},F},{{CullPerPageDrawCommands},A},{{ClearBuffer(InstanceCulling.OutputOffsetBufferOut Size=4bytes)},N},{{AllocateCommandInstanceOutputSpaceCs},N},{{InitIndirectArgs1D},N},{{OutputCommandInstanceListsCs},N}}},{{RasterPasses},N}}},{{UpdateAndClearDirtyFlags},N}}},{{FVirtualShadowMapArray::MergeStaticPhysicalPages},N}}},{{DispatchToRHI},N},{{ClearStencil (SceneDepthZ)},N},{{DiffuseIndirectAndAO},N},{{ClearTranslucencyLightingVolumeCompute 64},N},{{Lights},N},{{FilterTranslucentVolume 64x64x64 Cascades:2},N},{{DiffuseIndirectAndAO},N},{{DownsampleDepth(CheckerMinMax) 1324x745x -&gt; 662x373},N},{{DownsampleDepth(MinAndMaxDepth) 662x373x -&gt; 331x187},N},{{VolumetricCloud},N},{{VolCloudReconstruction},N},{{TSR MeasureFlickeringLuma 1324x745},N},{{LightShafts (Occlusion)},N},{{SkyAtmosphere},N},{{ExponentialHeightFog},N},{{VolCloudComposeOverScene},N},{{SetSceneTexturesUniformBuffer},N},{{FFXSystem::PostRenderOpaque},N},{{AsyncGpuTraceHelper::PostRenderOpaque},N},{{Niagara::PostRenderFinish},N},{{UnsetSceneTexturesUniformBuffer},N},{{FGPUSortManager::OnPostRenderOpaque},N},{{Translucency},N},{{PostProcessing},N},{{Submit Lumen surface cache feedback},N},{{ReleaseRayTracingResources},N},{{RenderFinish},N},{{ExtractUniformBuffer},N}}},{{EnqueueCopy(GPUMessageManager.MessageBuffer)},N},{{AccessModePass[Graphics] (Textures: 14, Buffers: 8)},N}}},{{BufferPoolCopyOps},N},{{TexturePoolCopyOps},N},{{BufferPoolCopyOps},N},{{TexturePoolCopyOps},N},{{SlateUI Title = Monkami (64-bit Development PCD3D_SM6) },N},{{SlateUI Title = Monkami (64-bit Development PCD3D_SM6) },N}}}</Breadcrumbs>
+</Queue>
+<Queue>
+<Name>Compute Queue 0</Name>
+<FullHash>DFE625FD8F418EED10609AAF18D8D742AE3944A2</FullHash>
+<ActiveHash>D7D7634FC0ADA96F36F6BB24826406E6AB93B1BC</ActiveHash>
+<Breadcrumbs>{{AccessModePass[AsyncCompute] (Textures: 1, Buffers: 2)},F}{{Scene},F}{{AccessModePass[AsyncCompute] (Textures: 1, Buffers: 2)},F}{{Scene},A,{{{AccessModePass[AsyncCompute] (Textures: 0, Buffers: 1)},F},{{AccessModePass[AsyncCompute] (Textures: 5, Buffers: 5)},F},{{CaptureConvolveSkyEnvMap},F},{{LumenSceneUpdate: 17 card captures 0.004M texels},F},{{LumenSceneLighting PROPAGATE GLOBAL CHANGE!},F},{{DiffuseIndirectAndAO},A,{{{LumenScreenProbeGather},F},{{TranslucencyVolumeLighting},A,{{{TraceVoxels 3x3},F},{{SpatialFilter},F},{{SpatialFilter},F},{{Integrate 42x24x26},A}}}}},{{PostProcessing},N}}}{{AccessModePass[AsyncCompute] (Textures: 11, Buffers: 6)},N}</Breadcrumbs>
+</Queue>
+</GPUBreadcrumbs>
+<Threads><Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 5a27b27         
+Monkami     0x00007ff65f300000 + 5a26a8e         
+Monkami     0x00007ff65f300000 + 69068aa         
+Monkami     0x00007ff65f300000 + 69097b6         
+Monkami     0x00007ff65f300000 + 69099a7         
+Monkami     0x00007ff65f300000 + 845d9fb         
+Monkami     0x00007ff65f300000 + 851d4f8         
+Monkami     0x00007ff65f300000 + 854cac9         
+Monkami     0x00007ff65f300000 + 845d641         
+Monkami     0x00007ff65f300000 + 8317e3f         
+Monkami     0x00007ff65f300000 + 8299f85         
+Monkami     0x00007ff65f300000 + 835402f         
+Monkami     0x00007ff65f300000 + 74c99c0         
+Monkami     0x00007ff65f300000 + 8b2a72a         
+Monkami     0x00007ff65f300000 + 8b42a7c         
+Monkami     0x00007ff65f300000 + 8b42b4a         
+Monkami     0x00007ff65f300000 + 8b45715         
+Monkami     0x00007ff65f300000 + 8b559f4         
+Monkami     0x00007ff65f300000 + cb5e06a         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22760</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27448</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18424</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6036</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30716</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29344</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15444</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31176</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31676</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19580</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27904</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4512</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31332</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13700</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22060</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18360</ThreadID>
+<ThreadName>Background Worker #14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32156</ThreadID>
+<ThreadName>Background Worker #15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22488</ThreadID>
+<ThreadName>Background Worker #16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 11208a3         
+Monkami     0x00007ff65f300000 + 11525c6         
+Monkami     0x00007ff65f300000 + 111c8a0         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8524</ThreadID>
+<ThreadName>Background Worker #17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11748</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20160</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 1313158         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28284</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 15181d5         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9904</ThreadID>
+<ThreadName>FAsyncWriter_Monkami</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 6851adc         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24796</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 2d6d139         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8948</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + b0c81c6         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19692</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 1656e4          
+ntdll       0x00007ffa1fc20000 + 9c113           
+KERNELBASE  0x00007ffa1d1a0000 + e0ae8           
+Monkami     0x00007ff65f300000 + 146725c         
+Monkami     0x00007ff65f300000 + 115051d         
+Monkami     0x00007ff65f300000 + 114fa8c         
+Monkami     0x00007ff65f300000 + 151ee22         
+Monkami     0x00007ff65f300000 + 1313203         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14676</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20460</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8016</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32616</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11652</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 4186432         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29876</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1410ff7         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28428</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ffa1fc20000 + 161b14          
+KERNELBASE    0x00007ffa1d1a0000 + 3b1bf           
+Monkami       0x00007ff65f300000 + 16bfc9d         
+Monkami       0x00007ff65f300000 + cbbe3ce         
+VCRUNTIME140  0x00007ff9ddde0000 + f47f            
+ntdll         0x00007ffa1fc20000 + 1661cf          
+ntdll         0x00007ffa1fc20000 + 123a7           
+ntdll         0x00007ffa1fc20000 + a961            
+KERNELBASE    0x00007ffa1d1a0000 + c73fa           
+Monkami       0x00007ff65f300000 + 16c1433         
+Monkami       0x00007ff65f300000 + 564d7bf         
+Monkami       0x00007ff65f300000 + 56501ae         
+Monkami       0x00007ff65f300000 + 55f0f05         
+Monkami       0x00007ff65f300000 + 5608309         
+Monkami       0x00007ff65f300000 + 560f14c         
+Monkami       0x00007ff65f300000 + 561cd6f         
+Monkami       0x00007ff65f300000 + 173a928         
+Monkami       0x00007ff65f300000 + 172e477         
+KERNEL32      0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>26984</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 561cd85         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14436</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 12ce138         
+Monkami     0x00007ff65f300000 + 1150e56         
+Monkami     0x00007ff65f300000 + 1798f86         
+Monkami     0x00007ff65f300000 + 5625f49         
+Monkami     0x00007ff65f300000 + 565038b         
+Monkami     0x00007ff65f300000 + 5645ff1         
+Monkami     0x00007ff65f300000 + 5887e1e         
+Monkami     0x00007ff65f300000 + 5885c3d         
+Monkami     0x00007ff65f300000 + 5874107         
+Monkami     0x00007ff65f300000 + 112a653         
+Monkami     0x00007ff65f300000 + 114479a         
+Monkami     0x00007ff65f300000 + 1144d6e         
+Monkami     0x00007ff65f300000 + 5a492ea         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3988</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 12ce138         
+Monkami     0x00007ff65f300000 + 1150e56         
+Monkami     0x00007ff65f300000 + 1798f86         
+Monkami     0x00007ff65f300000 + 58bc4f1         
+Monkami     0x00007ff65f300000 + 59f5b59         
+Monkami     0x00007ff65f300000 + 59f6888         
+Monkami     0x00007ff65f300000 + 5a20c8f         
+Monkami     0x00007ff65f300000 + 114479a         
+Monkami     0x00007ff65f300000 + 1144d6e         
+Monkami     0x00007ff65f300000 + 5a45dfe         
+Monkami     0x00007ff65f300000 + 5a49379         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17680</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 173cfdb         
+Monkami     0x00007ff65f300000 + 5a49498         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15316</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20356</ThreadID>
+<ThreadName>PSOPrecompilePool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15696</ThreadID>
+<ThreadName>PSOPrecompilePool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9640</ThreadID>
+<ThreadName>PSOPrecompilePool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2928</ThreadID>
+<ThreadName>PSOPrecompilePool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23496</ThreadID>
+<ThreadName>PSOPrecompilePool #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4612</ThreadID>
+<ThreadName>PSOPrecompilePool #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29300</ThreadID>
+<ThreadName>PSOPrecompilePool #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24120</ThreadID>
+<ThreadName>PSOPrecompilePool #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13920</ThreadID>
+<ThreadName>PSOPrecompilePool #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12932</ThreadID>
+<ThreadName>PSOPrecompilePool #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15364</ThreadID>
+<ThreadName>PSOPrecompilePool #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7996</ThreadID>
+<ThreadName>PSOPrecompilePool #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31588</ThreadID>
+<ThreadName>PSOPrecompilePool #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26836</ThreadID>
+<ThreadName>PSOPrecompilePool #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1312e15         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5928</ThreadID>
+<ThreadName>PSOPrecompilePool #14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 2837dc0         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24692</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 173cfdb         
+Monkami     0x00007ff65f300000 + 8c6ec3d         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25112</ThreadID>
+<ThreadName>LiveLinkMessageBusDiscoveryManager</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1b54ae4         
+Monkami     0x00007ff65f300000 + 1b54846         
+Monkami     0x00007ff65f300000 + 1aebb9e         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15088</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 8b23cc2         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15644</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 162114          
+ntdll       0x00007ffa1fc20000 + d10c4           
+KERNELBASE  0x00007ffa1d1a0000 + 46f01           
+Monkami     0x00007ff65f300000 + 173cfdb         
+Monkami     0x00007ff65f300000 + 833c071         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15432</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 406f99e         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9104</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 406fdbd         
+Monkami     0x00007ff65f300000 + 406fc77         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32524</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffa1fc20000 + 161b14          
+KERNELBASE  0x00007ffa1d1a0000 + 3b1bf           
+Monkami     0x00007ff65f300000 + 1798d39         
+Monkami     0x00007ff65f300000 + 1c3f7f2         
+Monkami     0x00007ff65f300000 + 173a928         
+Monkami     0x00007ff65f300000 + 172e477         
+KERNEL32    0x00007ffa1ee30000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27868</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Users/Usuario/Documents/Unreal Projects/Monkami/Package/Windows_Monkami/Monkami/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>NVMe</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>1334842740</DriveStats.Project.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 4060 Laptop GPU</RHI.AdapterName>
+<RHI.UserDriverVersion>595.79</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.9579</RHI.InternalDriverVersion>
+<RHI.DriverDate>3-4-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>28E0</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+<NumClients>0</NumClients>
+<ReplicationModel>Generic</ReplicationModel>
+<RHI.DREDHasBreadcrumbData>true</RHI.DREDHasBreadcrumbData>
+<RHI.DREDHasPageFaultData>false</RHI.DREDHasPageFaultData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
