@@ -72,3 +72,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Package/Windows_Monkami/Monkami/Binaries/Win64/Monkami.pdb
+Package/Windows_Monkami/Monkami/Content/Paks/Monkami-Windows.ucas
