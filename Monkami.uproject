@@ -21,6 +21,10 @@
 			"SupportedTargetPlatforms": [
 				"Android"
 			]
+		},
+		{
+			"Name": "OneClickControlRig",
+			"Enabled": false
 		}
 	]
 }
